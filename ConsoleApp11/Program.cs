@@ -7,12 +7,12 @@ class Program
         int a = 15, b = 8, c = 12;
         int min = a;
 
-        if (b < min)
+        if (b < min) 
         {
             min = b;
         }
 
-        if (c < min)
+        if (c < min) //błąd polegał na tym, że wartość większa była przypisywana do zmiennej min a nie wartość mniejsza.
         {
             min = c;
         }
