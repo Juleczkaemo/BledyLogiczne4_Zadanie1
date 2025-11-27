@@ -12,7 +12,7 @@ class Program
             min = b;
         }
 
-        if (c > min)
+        if (c < min)
         {
             min = c;
         }
